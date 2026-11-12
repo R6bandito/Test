@@ -1,4 +1,6 @@
 Output/
+__pycache__/
+*.pyc
 .cache/
 .cursor/
 .vscode/
