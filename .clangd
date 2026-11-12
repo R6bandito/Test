@@ -1,0 +1,9 @@
+CompileFlags:
+  CompilationDatabase: .
+  Add:
+    - -include
+    - .cursor/clangd-libc/include/armcc_intrinsics.h
+    - -Wno-implicit-function-declaration
+Diagnostics:
+  Suppress:
+    - implicit_function_declaration
